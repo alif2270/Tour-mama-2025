@@ -6,4 +6,26 @@
 body{
      min-height: 100vh;
      background-image:linear-gradient(#FFFFFF, #EBDCFF);
- }
+}
+#banner{
+    margin: 100px auto 120px auto;
+    width: 87.5%;
+    background-color:white;
+    border-radius: 40px;
+    border: 2px solid #872BFF10;
+    padding: 20px 30px;
+    background-image: url("../images/hero-bg.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-content h1 span{
+    color: #f411cf;
+}
